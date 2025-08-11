@@ -19,7 +19,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Syteflex",
+  title: "Paamedia",
   description: "A mordern social media application powered by Next.js",
 };
 
