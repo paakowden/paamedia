@@ -16,7 +16,6 @@ async function Sidebar() {
   const user = await getUserByClerkId(authUser.id);
   if (!user) return null;
 
-  //console.log({ user });
   return (
     <div className="sticky top-20">
       <Card>
@@ -30,7 +29,7 @@ async function Sidebar() {
               className="flex flex-col items-center justify-center"
             >
               <Avatar className="w-20 h-20 border-2 ">
-                <AvatarImage src={user.image || "/avatar.png"} />
+                <AvatarImage src={user?.image || "/avatar.png"} />
               </Avatar>
 
               <div className="mt-4 space-y-1">
