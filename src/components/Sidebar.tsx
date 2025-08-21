@@ -67,7 +67,8 @@ async function Sidebar() {
                 <LinkIcon className="w-4 h-4 mr-2 shrink-0" />
                 {user.website ? (
                   <a
-                    href={`${user.website}`}
+                    //href={`${user.website}`}
+                    href="https://3whiskey.com/"
                     className="hover:underline truncate"
                     target="_blank"
                   >
